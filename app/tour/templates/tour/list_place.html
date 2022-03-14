@@ -1,0 +1,10 @@
+{% extends "tour/base.html" %}
+
+{% block page_title %} List view for Places  {% endblock %}
+
+{% block body %} 
+    {% for place in places %} 
+        {{place.name}}
+    {% endfor %}
+
+{% endblock %}

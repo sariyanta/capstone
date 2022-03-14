@@ -32,7 +32,7 @@ const globals = {
 module.exports = {
   input: [path.resolve(__dirname, '../js/bootstrap.js'), path.resolve(__dirname, '../js/skip-link-focus-fix.js')],
   output: {
-    file: path.resolve(__dirname, `../../static/assets/js/${fileDest}`),
+    file: path.resolve(__dirname, `../../tour/static/tour/assets/js/${fileDest}`),
     format: 'umd',
     globals,
     name: 'understrap'

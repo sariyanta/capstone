@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block page_title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'assets/css/main.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'tour/assets/css/main.min.css' %}" />
 </head>
 
 <body>
     {% block body %}
     {% endblock %}
+    <script src="{% static 'tour/assets/js/theme.min.js' %}"></script>
 </body>
 
 </html>
